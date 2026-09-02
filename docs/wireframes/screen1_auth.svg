@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 750" width="375" height="750" style="background-color: #f8f9fa; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <!-- Phone Shell -->
+  <rect x="5" y="5" width="365" height="740" rx="30" ry="30" fill="#ffffff" stroke="#1a202c" stroke-width="4"/>
+  
+  <!-- Status Bar -->
+  <text x="30" y="32" font-size="12" font-weight="bold" fill="#1a202c">9:41</text>
+  <text x="310" y="32" font-size="12" fill="#1a202c">📶 🔋</text>
+
+  <!-- Navigation Header -->
+  <rect x="7" y="45" width="361" height="45" fill="#2d3748"/>
+  <text x="187.5" y="73" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">YouTube 清單極速清理</text>
+
+  <!-- App Logo & Hero -->
+  <rect x="137.5" y="120" width="100" height="100" rx="22" fill="#ff0000"/>
+  <path d="M175 150 L210 170 L175 190 Z" fill="#ffffff"/>
+  
+  <text x="187.5" y="250" font-size="20" font-weight="bold" fill="#1a202c" text-anchor="middle">YT Playlist Cleaner</text>
+  <text x="187.5" y="272" font-size="13" fill="#718096" text-anchor="middle">利用零碎時間 ‧ 1 分鐘極速清理</text>
+
+  <!-- Onboarding Guide Box -->
+  <rect x="25" y="310" width="325" height="230" rx="14" fill="#f7fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="45" y="340" font-size="13" font-weight="bold" fill="#2d3748">💡 3 秒轉存「稍後觀看」指引：</text>
+
+  <g transform="translate(45, 365)">
+    <!-- Step 1 -->
+    <circle cx="12" cy="12" r="10" fill="#3182ce"/>
+    <text x="12" y="16" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="32" y="16" font-size="12" fill="#4a5568">打開 YouTube App 點擊「稍後觀看」</text>
+
+    <!-- Step 2 -->
+    <circle cx="12" cy="52" r="10" fill="#3182ce"/>
+    <text x="12" y="56" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="32" y="56" font-size="12" fill="#4a5568">點擊右上角「...」➔「儲存至播放清單」</text>
+
+    <!-- Step 3 -->
+    <circle cx="12" cy="92" r="10" fill="#3182ce"/>
+    <text x="12" y="96" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+    <text x="32" y="96" font-size="12" fill="#4a5568">建立或選擇自訂清單（如：待清理）</text>
+
+    <!-- Step 4 -->
+    <circle cx="12" cy="132" r="10" fill="#38a169"/>
+    <text x="12" y="136" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+    <text x="32" y="136" font-size="12" font-weight="bold" fill="#22543d">回到本 App 即可開啟極速刷卡！</text>
+  </g>
+
+  <!-- Google OAuth Login Button -->
+  <rect x="35" y="570" width="305" height="52" rx="12" fill="#4285f4"/>
+  <text x="187.5" y="602" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">G   使用 Google 帳號登入 (OAuth)</text>
+
+  <!-- Footer Privacy Note -->
+  <text x="187.5" y="660" font-size="11" fill="#a0aec0" text-anchor="middle">🔒 隱私安全：Token 僅存放於手機本地 SecureStore</text>
+  <text x="187.5" y="680" font-size="10" fill="#cbd5e0" text-anchor="middle">Screen 1: Auth &amp; Onboarding Wireframe</text>
+</svg>

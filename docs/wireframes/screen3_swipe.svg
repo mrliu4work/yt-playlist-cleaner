@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 750" width="375" height="750" style="background-color: #f8f9fa; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <!-- Phone Shell -->
+  <rect x="5" y="5" width="365" height="740" rx="30" ry="30" fill="#ffffff" stroke="#1a202c" stroke-width="4"/>
+  
+  <!-- Status Bar -->
+  <text x="30" y="32" font-size="12" font-weight="bold" fill="#1a202c">9:41</text>
+  <text x="310" y="32" font-size="12" fill="#1a202c">📶 🔋</text>
+
+  <!-- Navigation Header -->
+  <rect x="7" y="45" width="361" height="45" fill="#2d3748"/>
+  <text x="25" y="72" font-size="16" fill="#ffffff">✕</text>
+  <text x="187.5" y="73" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">📋 待清理精選 (剩餘 12 / 18)</text>
+
+  <!-- Truncation Banner -->
+  <rect x="7" y="90" width="361" height="42" fill="#fff5f5" stroke="#feb2b2" stroke-width="1"/>
+  <text x="187.5" y="108" font-size="10.5" font-weight="bold" fill="#c53030" text-anchor="middle">⚠️ 公用額度尚可刪 18 支，已預載前 18 張卡片</text>
+  <text x="187.5" y="123" font-size="9.5" fill="#2b6cb0" text-anchor="middle">[ 點此切換個人 API Key 解鎖完整 48 支 ]</text>
+
+  <!-- Stack Background Effect -->
+  <rect x="35" y="150" width="305" height="410" rx="18" fill="#e2e8f0" stroke="#cbd5e0" stroke-width="1"/>
+
+  <!-- Main Active Card -->
+  <g transform="translate(25, 140)">
+    <rect x="0" y="0" width="325" height="415" rx="18" fill="#ffffff" stroke="#cbd5e0" stroke-width="2"/>
+    
+    <!-- Video Thumbnail -->
+    <rect x="12" y="12" width="301" height="185" rx="12" fill="#2d3748"/>
+    <text x="162.5" y="105" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">▶ 影片高畫質縮圖</text>
+    
+    <!-- Duration Badge -->
+    <rect x="22" y="160" width="80" height="24" rx="6" fill="#000000" opacity="0.8"/>
+    <text x="62" y="176" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">⏱️ 42:15</text>
+
+    <!-- Added Date Badge -->
+    <rect x="190" y="160" width="113" height="24" rx="6" fill="#000000" opacity="0.8"/>
+    <text x="246.5" y="176" font-size="10" fill="#ffffff" text-anchor="middle">📅 8 個月前加入</text>
+
+    <!-- Video Metadata -->
+    <text x="18" y="232" font-size="15" font-weight="bold" fill="#1a202c">2026 前端全棧開發完整指南</text>
+    <text x="18" y="255" font-size="15" font-weight="bold" fill="#1a202c">(從零到精通實戰教學)</text>
+    
+    <text x="18" y="290" font-size="12" fill="#4a5568">頻道：全棧開發者 Talk  <tspan fill="#3182ce">✔</tspan></text>
+    <text x="18" y="312" font-size="11" fill="#718096">觀看次數：24 萬次 • 發布於 1 年前</text>
+
+    <!-- Tags -->
+    <rect x="18" y="335" width="85" height="22" rx="4" fill="#edf2f7"/>
+    <text x="60.5" y="350" font-size="10" fill="#4a5568" text-anchor="middle">長影片 &gt; 30m</text>
+
+    <rect x="110" y="335" width="85" height="22" rx="4" fill="#feebc8"/>
+    <text x="152.5" y="350" font-size="10" fill="#744210" text-anchor="middle">久未觀看</text>
+  </g>
+
+  <!-- Action Buttons -->
+  <g transform="translate(0, 575)">
+    <!-- Delete Button (Left Swipe) -->
+    <circle cx="115" cy="35" r="32" fill="#feb2b2" stroke="#e53e3e" stroke-width="2"/>
+    <text x="115" y="32" font-size="16" text-anchor="middle">❌</text>
+    <text x="115" y="48" font-size="10" font-weight="bold" fill="#9b2c2c" text-anchor="middle">刪除</text>
+
+    <!-- Keep Button (Right Swipe) -->
+    <circle cx="260" cy="35" r="32" fill="#c6f6d5" stroke="#38a169" stroke-width="2"/>
+    <text x="260" y="32" font-size="16" text-anchor="middle">❤️</text>
+    <text x="260" y="48" font-size="10" font-weight="bold" fill="#22543d" text-anchor="middle">保留</text>
+  </g>
+
+  <!-- Single-Slot Undo Toast (Floating) -->
+  <g transform="translate(20, 660)">
+    <rect x="0" y="0" width="335" height="42" rx="10" fill="#2d3748"/>
+    <text x="15" y="25" font-size="11" fill="#ffffff">❌ 已將「上一支影片」加入刪除佇列</text>
+    
+    <rect x="255" y="8" width="68" height="26" rx="6" fill="#e2e8f0"/>
+    <text x="289" y="25" font-size="11" font-weight="bold" fill="#1a202c" text-anchor="middle">↩ Undo</text>
+  </g>
+
+  <text x="187.5" y="722" font-size="9.5" fill="#a0aec0" text-anchor="middle">Screen 3: Swipe Deck Wireframe (Single Undo Slot)</text>
+</svg>
